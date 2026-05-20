@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tofik Nasir - Ethiopian Web Developer</title>
+</head>
+<body>
+  <h1 id="none">TOFIK NASIR WEBSITE DEVELOPER</h1>
+  <nav style="margin-right: 20px;">
+    <ul>
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#products">PRODUCTS</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+  <section class="hero">
+    <h2>Ethiopian Web Developer Building Your Online Presence</h2>
+    <p>I create simple, interactive websites for small businesses at fair prices.</p>
+    <a href="#contact" class="button">Order Your Website Now!</a>
+    <p>Tofik Nasir Website Developer creates simple and interactive websites for your business at fair prices. Order now!</p>
+  </section>
+  <section id="about">
+    <h1>ABOUT THE DEVELOPER</h1>
+    <p>Tofik Nasir is a University  student and certified Business from Arsi University. I build websites for <b>hotels, restaurants, barber shops</b>, and many more small businesses.</p>
+  </section>
+  <section id="products">
+    <h1>MY PORTFOLIO</h1>
+    <p>Check out some of my recent projects:</p>
+    <figure>
+      <img src="images/travel-agency.png" alt="Travel Agency Website" width="600">
+      <p>Travel Agency Booking System</p>
+      <img src="images/about-me.png" alt="Personal Website" width="600">
+      <p>Personal Portfolio Website</p>
+      <img src="images/restaurant.png" alt="Restaurant Website" width="600">
+      <p>Ethiopian Restaurant Website</p>
+    </figure>
+    <div class="pricing">
+      <h3>Website Packages:</h3>
+      <ul>
+        <li><strong>Basic:</strong> 3-page website - 1,500 ETB</li>
+        <li><strong>Professional:</strong> 5-page + contact form - 3,500 ETB</li>
+        <li><strong>Business:</strong> Mobile-optimized + updates - 4,500 ETB</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h1>CONTACT ME</h1>
+    <p id="me">Ready for your website? Contact me:</p>
+    <p id="you">Phone: <a href="tel:099370060">0993700060</a></p>
+    <p id="they">Email: <a href="toofiqnaasir52@gmail.com">toofiqnaasir52@gmail.com</a></p>
+  </section>
+  <footer>
+    &copy; 2026 Tofik Nasir Web Developer - Ethiopian Web Developer
+  </footer>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      color: goldenrod;
+      text-align: center;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.9));
+      color: white;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+
+    #none {
+      text-align: center;
+      text-decoration: underline;
+      text-shadow: 2px 3px #333;
+      color: gold;
+      background: rgba(0, 100, 0, 0.8);
+      padding: 20px;
+      margin: 0;
+    }
+
+    nav ul {
+      list-style: none;
+      padding: 15px;
+      display: flex;
+      justify-content: center;
+      background: rgba(0,0,0,0.9);
+      margin: 0;
+    }
+
+    nav li {
+      margin: 0 20px;
+    }
+
+    nav a {
+      color: gold;
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 1.1em;
+      padding: 5px 10px;
+      border-radius: 3px;
+    }
+
+    nav a:hover {
+      background: gold;
+      color: black;
+    }
+
+    .hero {
+      padding: 40px 20px;
+      background: rgba(0, 50, 0, 0.6);
+      margin: 20px auto;
+      max-width: 800px;
+      border-radius: 10px;
+    }
+
+    .hero h2 {
+      color: gold;
+      margin-bottom: 15px;
+    }
+
+    .button {
+      background: gold;
+      color: black;
+      padding: 12px 25px;
+      text-decoration: none;
+      border-radius: 5px;
+      display: inline-block;
+      margin: 15px;
+      font-weight: bold;
+      border: 2px solid goldenrod;
+    }
+
+    .button:hover {
+      background: goldenrod;
+      transform: scale(1.05);
+    }
+
+    section {
+      padding: 30px 20px;
+      max-width: 900px;
+      margin: 20px auto;
+      background: rgba(0,0,0,0.7);
+      border-radius: 10px;
+    }
+
+    figure img {
+      width: 90%;
+      max-width: 600px;
+      border: 3px solid gold;
+      border-radius: 10px;
+      margin: 20px auto;
+      display: block;
+      box-shadow: 0 5px 15px rgba(255,215,0,0.3);
+    }
+
+    .pricing {
+      background: rgba(0, 100, 0, 0.5);
+      padding: 20px;
+      border-radius: 8px;
+      margin-top: 30px;
+    }
+
+    .pricing ul {
+      list-style: none;
+      margin-top: 15px;
+    }
+
+    .pricing li {
+      padding: 10px;
+      margin: 5px 0;
+      background: rgba(255,215,0,0.1);
+      border-left: 3px solid gold;
+    }
+
+    #contact {
+      background: rgba(0, 0, 0, 0.8);
+    }
+
+    #me { color: gold; font-weight: bold; }
+    #you, #they { margin: 10px 0; }
+
+    footer {
+      background: black;
+      padding: 20px;
+      margin-top: 40px;
+      border-top: 2px solid gold;
+    }
+  </style>
+</body>
+</html>
