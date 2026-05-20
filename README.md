@@ -1,6 +1,4 @@
-# TofikNasir-Ethiopian-web-site-developer.github.io
-Tofik Nasir -Ethiopian  website developer 
-1   <!DOCTYPE html>
+<!DOCTYPE html>
 2   <html lang="en">
 3   <head>
 4   <meta charset="UTF-8">
